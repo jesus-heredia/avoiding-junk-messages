@@ -69,9 +69,9 @@ function validateForm() {
 			
       alert('The ' + required_fields[x] + ' field has been left blank.');
 
-			return false;
+      return false;
 
-		}
+    }
 
   }
 

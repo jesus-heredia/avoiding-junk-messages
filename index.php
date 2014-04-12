@@ -5,8 +5,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   // Threshold
   $th = 5;
 
+  // Stores when the contact form was displayed to the user for the first time.
   $time1 = $_POST['time1'];
 
+  // Stores when the conctact form was submitted by the user.
   $time2 = time();
 
   // Receiver or recievers of the email.

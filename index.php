@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   // Stores when the conctact form was submitted by the user.
   $time2 = time();
 
-  // Receiver or recievers of the email.
+  // Receiver or receivers of the email.
   $to = 'user@example.com';
 
   // Subject of the email to be sent.
